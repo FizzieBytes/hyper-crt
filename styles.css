@@ -1,0 +1,112 @@
+.hyper_main {
+  background: linear-gradient(#C6C6B2, #3B3B35);
+  border-color: #555 !important;
+}
+
+.hyper_main::after {
+  content: "HYPERCRT";
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  line-height: 22px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  /*Colors from:  https://codepen.io/mychirs/pen/vbJoy */ 
+  background: linear-gradient(
+    20deg,
+    #65b849 17%, 
+    #f7b423 17%, 
+    #f7b423 34%, 
+    #f58122 34%, 
+    #f58122 50%, 
+    #de3a3c 50%, 
+    #de3a3c 66%, 
+    #943f96 66%, 
+    #943f96 82%, 
+    #009fd9 82%, 
+    #009fd9 86%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #333);
+}
+
+.tabs_title,
+.tabs_list {
+  letter-spacing: 0.1em;
+}
+
+.tabs_list {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  flex-flow: column;
+  max-height: none;
+  padding: 1.5em;
+  margin: 0;
+  width: 16rem;
+  height: 16rem;
+  line-height: 1.25em;
+  font-size: 1.1em;
+  background-color: yellow;
+  transform: rotate(3deg);
+  box-shadow: 2px 2px 1em #000;
+}
+
+.tabs_title {
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.tabs_list .tab_tab {
+  flex-grow: 0;
+  color: #666;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs_list .tab_tab .tab_text,
+.tabs_list .tab_tab .tab_text .tab_textInner {
+  height: 1.75em;
+  line-height: 1.75em;
+}
+
+.tabs_list .tab_tab .tab_textInner {
+  text-align: left;
+}
+
+.tabs_list .tab_tab .tab_icon {
+  right: 0;
+  top: 50%;
+  margin-top: -7px;
+  color: #000;
+}
+
+.tabs_list .tab_tab.tab_active .tab_textInner {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+}
+
+.terms_terms {
+  margin: 40px;
+  background: #170B00;
+  border-width: 1.5em;
+  border-style: outset outset solid inset;
+  border-color: #C6C6B2 #C6C6B2 #3B3B35 #C6C6B2;
+  box-shadow: inset 0 0 2em rgba(239,131,25, 0.4);
+  border-radius: 0.5em;
+}
+
+
+.terminal ::-webkit-scrollbar  {
+  width: 1em;
+}
+
+.terminal ::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 140, 0, 0.5);
+  border-radius: 0;
+}

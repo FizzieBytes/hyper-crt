@@ -1,20 +1,17 @@
 {
   "name": "hyper-crt",
   "version": "1.0.0",
-  "description": "Hyperterminal retro CRT theme",
+  "description": "Retro CRT theme for Hyper",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WebmasterRich/hyper-crt.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["hyper","theme","retro"],
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/WebmasterRich/hyper-crt/issues"
   },
-  "homepage": "https://github.com/WebmasterRich/hyper-crt#readme"
+  "homepage": "https://github.com/WebmasterRich/hyper-crt#readme",
+  "author": "Webmaster Rich <webmaster@busyrich.com>"
 }
