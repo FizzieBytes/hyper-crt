@@ -5,10 +5,10 @@ const fs     = require('fs'),
 
 exports.decorateConfig = config => {
   const decoratedConfig = Object.assign({}, config, {
-    padding: '20px',
+    padding: '24px',
     foregroundColor: '#ff8c00',
-    backgroundColor: 'transparent',
-    borderColor: 'transparent',
+    backgroundColor: '#170B00',
+    borderColor: 'none',
     cursorColor: 'rgba(255, 140, 0, 0.5)',
     cursorAccentColor: '#ff8c00',
     selectionColor: 'rgba(255, 140, 0, 0.5)',
