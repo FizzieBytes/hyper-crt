@@ -1,6 +1,6 @@
 {
   "name": "hyper-crt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Retro CRT theme for Hyper",
   "main": "index.js",
   "repository": {
