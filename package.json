@@ -1,13 +1,17 @@
 {
   "name": "hyper-crt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retro CRT theme for Hyper",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WebmasterRich/hyper-crt.git"
   },
-  "keywords": ["hyper","hyper-theme","retro"],
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "retro"
+  ],
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/WebmasterRich/hyper-crt/issues"
